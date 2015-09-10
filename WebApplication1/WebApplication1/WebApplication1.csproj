@@ -191,6 +191,7 @@
     <Content Include="Content\themes\base\minified\jquery.ui.tabs.min.css" />
     <Content Include="Content\themes\base\minified\jquery.ui.theme.min.css" />
     <Content Include="Final.aspx" />
+    <Content Include="Final2.aspx" />
     <Content Include="Images\accent.png" />
     <Content Include="Images\bullet.png" />
     <Content Include="Images\heroAccent.png" />
@@ -317,6 +318,13 @@
     </Compile>
     <Compile Include="Final.aspx.designer.cs">
       <DependentUpon>Final.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Final2.aspx.cs">
+      <DependentUpon>Final2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Final2.aspx.designer.cs">
+      <DependentUpon>Final2.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
