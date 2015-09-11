@@ -211,6 +211,7 @@
     <Content Include="packages.config" />
     <Content Include="WebFormForDevBranch.aspx" />
     <Content Include="Webform_DevBranch2.aspx" />
+    <Content Include="GitScript\Script.bat" />
     <None Include="Scripts\jquery-1.8.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.8.2.js" />
     <Content Include="Scripts\jquery-1.8.2.min.js" />
