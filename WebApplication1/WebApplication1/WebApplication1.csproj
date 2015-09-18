@@ -190,6 +190,8 @@
     <Content Include="Content\themes\base\minified\jquery.ui.slider.min.css" />
     <Content Include="Content\themes\base\minified\jquery.ui.tabs.min.css" />
     <Content Include="Content\themes\base\minified\jquery.ui.theme.min.css" />
+    <Content Include="Final.aspx" />
+    <Content Include="Final2.aspx" />
     <Content Include="Images\accent.png" />
     <Content Include="Images\bullet.png" />
     <Content Include="Images\heroAccent.png" />
@@ -207,6 +209,9 @@
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="packages.config" />
+    <Content Include="WebFormForDevBranch.aspx" />
+    <Content Include="Webform_DevBranch2.aspx" />
+    <Content Include="GitScript\Script.bat" />
     <None Include="Scripts\jquery-1.8.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.8.2.js" />
     <Content Include="Scripts\jquery-1.8.2.min.js" />
@@ -309,6 +314,20 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Final.aspx.cs">
+      <DependentUpon>Final.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Final.aspx.designer.cs">
+      <DependentUpon>Final.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Final2.aspx.cs">
+      <DependentUpon>Final2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Final2.aspx.designer.cs">
+      <DependentUpon>Final2.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -340,6 +359,20 @@
     </Compile>
     <Compile Include="ViewSwitcher.ascx.designer.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebFormForDevBranch.aspx.cs">
+      <DependentUpon>WebFormForDevBranch.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebFormForDevBranch.aspx.designer.cs">
+      <DependentUpon>WebFormForDevBranch.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Webform_DevBranch2.aspx.cs">
+      <DependentUpon>Webform_DevBranch2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Webform_DevBranch2.aspx.designer.cs">
+      <DependentUpon>Webform_DevBranch2.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
