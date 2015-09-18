@@ -212,6 +212,7 @@
     <Content Include="WebFormForDevBranch.aspx" />
     <Content Include="Webform_DevBranch2.aspx" />
     <Content Include="GitScript\Script.bat" />
+    <Content Include="GitScript\shellScript.sh" />
     <None Include="Scripts\jquery-1.8.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.8.2.js" />
     <Content Include="Scripts\jquery-1.8.2.min.js" />
